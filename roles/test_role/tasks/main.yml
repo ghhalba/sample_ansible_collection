@@ -1,0 +1,6 @@
+---
+# tasks file for test_role
+- name: Ensure a file is present
+  copy:
+    dest: /tmp/hello_world.txt
+    content: "Hello, World!"

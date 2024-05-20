@@ -1,0 +1,2 @@
+# roles/my_role/meta/runtime.yml
+requires_ansible: '>=2.9.0'

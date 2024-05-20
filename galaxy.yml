@@ -1,0 +1,14 @@
+namespace: ghhalba
+name: sample_ansible_collection
+version: 1.0.0
+readme: README.md
+authors:
+  - me@email.com
+description: Sample ansible galaxy collection
+license: MIT
+tags: []
+tags:
+  - sample
+  - example
+dependencies: {}
+repository: https://github.com/ghhalba/sample_ansible_collection

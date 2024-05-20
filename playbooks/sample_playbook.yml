@@ -1,0 +1,11 @@
+---
+- name: Sample playbook
+  hosts: localhost
+  tasks:
+    - name: Use test_role
+      import_role:
+        name: ghhalba.sample_ansible_collection.test_role
+
+    - name: Use sample_module
+      ghhalba.sample_ansible_collection.sample_module:
+        name: "World"
