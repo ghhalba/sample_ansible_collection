@@ -1,8 +1,8 @@
-# General Overview of Plugins
+# hv_lun - Manage Volumes
 
 ## Synopsis
 
-General overview of plugins
+This module manages volumes.
 
 ## Requirements
 

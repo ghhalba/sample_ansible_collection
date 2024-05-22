@@ -16,4 +16,5 @@ To use this collection, install it with the following command:
 
 ```bash
 ansible-galaxy collection install ghhalba.sample_ansible_collection
+```
 

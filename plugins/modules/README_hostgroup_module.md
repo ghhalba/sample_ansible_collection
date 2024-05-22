@@ -1,8 +1,8 @@
-# General Overview of Plugins
+# purefa_hg - Manage Host Groups on Pure Storage FlashArray
 
 ## Synopsis
 
-General overview of plugins
+This module manages host groups on Pure Storage FlashArray.
 
 ## Requirements
 

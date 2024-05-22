@@ -1,5 +1,36 @@
 #!/usr/bin/python
 
+DOCUMENTATION = '''
+---
+module: hostgroup_module
+short_description: This is a sample module for demonstration.
+version_added: "1.0.0"
+description:
+    - This is a detailed description of the sample module.
+options:
+    parameter_name:
+        description:
+            - This is the description of the parameter.
+        required: true
+        type: str
+author:
+    - Your Name (@yourGitHub)
+'''
+
+EXAMPLES = '''
+- name: Sample task using hostgroup_module
+  hostgroup_module:
+    parameter_name: value
+'''
+
+RETURN = '''
+output_name:
+    description: The description of the output.
+    returned: success
+    type: str
+    sample: 'output_value'
+'''
+
 from ansible.module_utils.basic import AnsibleModule
 
 def run_module():
